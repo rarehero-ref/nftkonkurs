@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NFT Konkurslari</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>NFT Konkurslari</h1>
+            <nav>
+                <ul>
+                    <li><a href="#" id="show-all-contests">Barcha Konkurslar</a></li>
+                    </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main class="container">
+        <section id="contest-list-section" class="active-section">
+            <h2>Faol Konkurslar</h2>
+            <div id="contest-list" class="contest-grid">
+                <p id="loading-message" class="info-message">Konkurslar yuklanmoqda...</p>
+                <p id="no-contests-message" class="info-message" style="display: none;">Hozircha faol konkurslar mavjud emas.</p>
+            </div>
+        </section>
+
+        <section id="contest-detail-section" class="hidden-section">
+            <button id="back-to-list" class="back-button">⬅️ Orqaga</button>
+            <div id="contest-detail-content">
+                </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 NFT Konkurslari. Barcha huquqlar himoyalangan.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
